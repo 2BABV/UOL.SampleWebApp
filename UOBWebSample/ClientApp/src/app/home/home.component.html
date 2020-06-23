@@ -1,0 +1,9 @@
+<h1>Uniform Objects Library</h1>
+<p>Choose product by clicking on the [GET] button of the product you want to only get the data<br />or [DOWNLOAD] to download the Template object and the data:</p>
+<div class="wrapper">
+  <div class="box a"><p style="font-size:11px;text-align:center">Wilo CronoBloc-BL 100/145-1,5/4</p><img src="../assets/img/Blokpomp.png" /><p><button (click)="doGetData('8712423012424','2121105')" style="float:left">GET</button><button (click)="doGetTemplate('8712423012424','2121105','Revit','2018')" style="float:right">DOWNLOAD</button></p></div>
+  <div class="box b"><p style="font-size:11px;text-align:center">ABB VanLien Endurance ED 10/BL</p><img src="../assets/img/Brandblusserpictogram.png" /><p><button (click)="doGetData('8712507900081','22438310')" style="float:left">GET</button><button (click)="doGetTemplate('8712507900081','22438310','Revit','2018')" style="float:right">DOWNLOAD</button></p></div>
+  <div class="box c"><p style="font-size:11px;text-align:center">Zehnder ComfoFan S R</p><img src="../assets/img/Woonhuisventilator.png" /><p><button (click)="doGetData('8719333007694','458004605')" style="float:left">GET</button><button (click)="doGetTemplate('8719333007694','458004605','Revit','2018')" style="float:right">DOWNLOAD</button></p></div>
+</div>
+<hr />
+<p><button (click)="doGetAllData()" style="float:left">GET ALL</button>&nbsp;<button (click)="doGetAllTemplates('Revit', '2018')" style="margin-left:10px">DOWNLOAD ALL</button></p>
